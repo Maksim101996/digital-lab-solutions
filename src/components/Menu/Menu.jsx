@@ -23,6 +23,7 @@ const Menu = ({ mobileMenu, setMenu }) => {
 		}
 		lastScroll = scrollPosition()
 	}
+
 	useEffect(() => {
 		window.addEventListener('scroll', checkScroll)
 		return () => {
